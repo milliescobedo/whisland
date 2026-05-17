@@ -1,0 +1,386 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.Links a:hover {
+    color: #9ecbff;
+    transition: 0.3s;
+}
+
+.Links a {
+    text-decoration: none;
+    color: rgb(0, 64, 129);
+
+}
+
+.Fundadoras {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    cursor: pointer;
+    padding-bottom: 70px;
+}
+
+.Fundadora:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 20px rgba(7, 36, 153, 0.255);
+}
+
+.Tarjeta {
+    width: 320px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 1rem;
+
+}
+
+.Tarjeta p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.Tarjeta:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.Fundadora {
+    width: 300px;
+    max-width: 320px;
+
+    border-radius: 20px;
+}
+
+.Logotipo {
+    width: 500px;
+    height: auto;
+}
+
+body {
+    line-height: 1.6;
+    color: #444;
+    font-family: 'Outfit', sans-serif;
+    text-align: justify;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background: rgba(124, 207, 255, 0.084);
+
+    backdrop-filter: blur(10px);
+
+    padding: 0.5rem 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.logo-imagen {
+    display: flex;
+    align-items: center;
+}
+
+.Links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+#hero {
+    padding: 2rem;
+    min-height: 100vh;
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagenes/imagen-wislandeana.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 1rem;
+    backdrop-filter: blur(5px);
+
+}
+
+#hero h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.Ver-mas {
+    background-color: rgb(44, 134, 212);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 400px;
+    text-decoration: none;
+}
+
+.Ver-mas:hover {
+    background-color: blue;
+}
+
+h2 {
+    color: rgb(44, 51, 244);
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+
+}
+
+.introduccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+
+
+}
+
+.introduccion p {
+    text-align: justify;
+
+}
+
+.portada {
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.texto-portada {
+    max-width: 500px;
+}
+
+.texto-portada h2 {
+    text-align: justify;
+
+}
+
+
+h3 {
+    color: rgb(240, 240, 252);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.Personajes {
+    margin: auto;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 20px;
+    max-width: 1300px;
+
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+
+    background-color: #dce3f9;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    padding: 2rem;
+
+}
+
+.Personajes p {
+    font-style: italic;
+}
+
+.Personajes ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 12s infinite alternate ease-in-out;
+}
+
+.Personajes li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.Personajes img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    55% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -100%;
+    }
+
+}
+
+.info-wis {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: stretch;
+    gap: 40px;
+    padding: 4rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.info-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
+}
+
+.info {
+    background-color: rgba(123, 179, 248, 0.829);
+
+    padding: 2rem;
+    border-radius: 25px;
+
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+.info:last-child { 
+    margin-bottom: 0; 
+}
+
+.imagen-info {
+    width: 100%;
+    height: 48%;
+
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+.contenedor-imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    
+}
+
+h4 {
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.origen {
+    width: 85%;
+    margin: 5rem auto;
+    background: linear-gradient(to right, #dfe9ff, #edf4ff);
+    padding: 3rem;
+    border-radius: 35px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.logowis {
+    width: 450px;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+.logo-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.origen-texto {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.historias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.historias-img {
+    width: 750px;
+    height: auto;
+    border-radius: 35px;
+}
+
+.ultima-seccion {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #e9eefc;
+    margin-top: 0;
+
+}
+
+footer {
+    text-align: center;
+
+    padding: 2rem;
+
+    background-color: #dce3f9;
+
+    color: #444;
+
+    margin-top: 5rem;
+}
